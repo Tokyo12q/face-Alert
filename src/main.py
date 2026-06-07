@@ -1,11 +1,11 @@
 # ─────────────────────────────────────────────────────────────────────────────
-# main.py  –  Application Entry Point
+# src/main.py  –  Application Entry Point
 # Purpose : The single file you run to launch the Smart Proctoring System.
 #            It imports the main GUI window class and starts the Tkinter event
 #            loop so the application window appears on screen.
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Import the ProctorDashboard class from src/gui.py.
+# Import the ProctorDashboard class from gui.py (same src/ package).
 # ProctorDashboard is the main application window (inherits from CTk/Tk).
 from src.gui import ProctorDashboard
 
