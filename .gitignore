@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+*.db
+
+# Evidence folder (contains screenshots)
+evidence/
+
+# Models (Optional: GitHub has a 100MB limit per file, but better to keep repo small)
+# models/
